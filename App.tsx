@@ -1,8 +1,9 @@
 import { StatusBar } from "expo-status-bar";
 import { StyleSheet, Text, View } from "react-native";
 import SpinnerComponent from "./src/layout/spinner";
+import React from "react";
 
-export default function App() {
+const App: React.FC = () => {
   return (
     <View style={styles.container}>
       <SpinnerComponent />
@@ -18,3 +19,5 @@ const styles = StyleSheet.create({
     justifyContent: "center",
   },
 });
+
+export default App;
