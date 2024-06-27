@@ -5,7 +5,7 @@ import FeedbackComponentsStateContext, {
 } from "../../context/feedback";
 import { styles } from "./styles";
 
-const HomeScreen = () => {
+const HomeScreen: React.FC = () => {
   const feedbackComponentsStateContext = useContext(
     FeedbackComponentsStateContext
   );
